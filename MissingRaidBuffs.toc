@@ -1,0 +1,30 @@
+## Interface: 11305
+## Title: Missing Raid Buffs
+## Notes: List players missing raid buffs that you can cast
+## Version: 1.1.7
+## Author: Slainsvirtue-Mankrik
+##
+## LoadOnDemand: 0
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace-3.0
+## X-Embeds: LibStub, CallbackHandler-1.0, Ace-3.0
+## SavedVariables: MissingRaidBuffsDB
+
+#@no-lib-strip@
+lib\LibStub\LibStub.lua
+lib\CallbackHandler-1.0\CallbackHandler-1.0.xml
+lib\AceLocale-3.0\AceLocale-3.0.xml
+lib\AceGUI-3.0\AceGUI-3.0.xml
+lib\AceDB-3.0\AceDB-3.0.xml
+lib\AceConfigRegistry-3.0\AceConfigRegistry-3.0.xml
+lib\AceConfigDialog-3.0\AceConfigDialog-3.0.xml
+#@end-no-lib-strip@
+
+locales.xml
+addon.lua
+media.lua
+config.lua
+
+Model.lua
+Controller.lua
+View.lua
+View.xml
